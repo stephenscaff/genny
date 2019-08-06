@@ -1,0 +1,31 @@
+{
+  "name": "genny",
+  "version": "1.0.0",
+  "description": "Generate specified image sizes, and optimize em too.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stephenscaff/genny.git"
+  },
+  "keywords": [
+    "image",
+    "sizes",
+    "generator",
+    "optimizer"
+  ],
+  "author": "stephenscaff",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/stephenscaff/genny/issues"
+  },
+  "homepage": "https://github.com/stephenscaff/genny#readme",
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-image-resize": "^0.13.1",
+    "gulp-imagemin": "^6.0.0",
+    "gulp-rename": "^1.4.0"
+  }
+}
